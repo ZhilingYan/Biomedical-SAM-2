@@ -6,7 +6,7 @@ Biomedical SAM-2 (BioSAM-2) is an enhanced foundation model optimized for biomed
 
 Download code:
 ```python
-git clone
+git clone https://github.com/ZhilingYan/Biomedical-SAM-2.git
 cd Biomedical-SAM-2
 ```
 Install the environment:
