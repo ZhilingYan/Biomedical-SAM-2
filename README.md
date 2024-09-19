@@ -44,4 +44,4 @@ python train.py -net sam2 -exp_name BUSI -vis 1 -sam_ckpt ./checkpoints/sam2_hie
 
 ## Acknowledgements
 
-We acknowledge all the authors of the employed public datasets, allowing the community to use these valuable resources for research purposes. We also thank the authors of [SAM-2](https://github.com/facebookresearch/segment-anything-2/tree/main) and [MedSAM-2](https://github.com/MedicineToken/Medical-SAM2/tree/main) for making their valuable code publicly available.
+We acknowledge the authors of the employed public dataset. We also thank the authors of [SAM-2](https://github.com/facebookresearch/segment-anything-2/tree/main) and [MedSAM-2](https://github.com/MedicineToken/Medical-SAM2/tree/main) for making their valuable code publicly available.
