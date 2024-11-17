@@ -45,10 +45,6 @@ def main():
     # optimisation
     for param in net.image_encoder.parameters():
         param.requires_grad = False
-    for name, module in net.named_modules():
-        if name != 'image_encoder':
-            for param in module.parameters():
-                param.requires_grad = True
         
     optimizer = optim.Adam(filter(lambda p: p.requires_grad, net.parameters()), 
                            lr=args.lr, betas=(0.9, 0.999), eps=1e-08, weight_decay=0, amsgrad=False)
